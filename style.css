@@ -11,7 +11,7 @@ body {
 .card {
   width: 600px;
   height: 400px;
-  background: url("assets/bg.jpg") center/cover;
+  background: url("assets/bg.png") center/cover;
   color: white;
   padding: 40px;
   box-shadow: 0 10px 40px rgba(0,0,0,0.5);
