@@ -2,18 +2,21 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>Merry Christmas</title>
+  <title>A Warneford-Jones Production</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <div id="error" class="hidden error">Card not found.</div>
   <div class="card">
     <h1 id="greeting"></h1>
+    <div class="photo-wrap hidden" id="photo-wrap">
+      <img id="photo" class="photo" alt="">
+      <img id="decoration" class="decoration hidden" alt="">
+    </div>
     <p id="message"></p>
     <p class="footer" id="footer"></p>
     <button id="download">Download card</button>
   </div>
-
-  <canvas id="snow"></canvas>
 
   <script src="script.js"></script>
 </body>
